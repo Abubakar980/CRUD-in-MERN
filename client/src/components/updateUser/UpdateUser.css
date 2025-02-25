@@ -1,0 +1,84 @@
+/* AddUser.css */
+
+/* General body and HTML styling */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.addUser {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.addUser h3 {
+    color: #333;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.addUserForm {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+.inputGroup label {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    margin-bottom: 5px;
+    text-align: left; /* Align label text to the left */
+}
+
+.inputGroup input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 100%; /* Make input fields take the full width */
+}
+
+.inputGroup input:focus {
+    border-color: #007bff;
+}
+
+.button_submit , .goToHome {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.button_submit:hover {
+    background-color: #0056b3;
+}
+
+/* Remove underline from Link component */
+a {
+    text-decoration: none; /* Prevent the link from being underlined */
+}
+
